@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+    <header>
+        <h1>SEMAPA - Inicio de Sesión</h1>
+    </header>
+    <main>
+    <div class="login-container">
+        <h2>Asigancion Jefe de Departamento</h2>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="username">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Departamento:</label>
+                <select name="dpto" id="dpto">
+                    <option value="toyota">Informatica</option>
+                    <option value="suzuki">Recursos Humanos</option>
+                </select>
+            </div>
+                <div>
+                    <a class="button-link" href="/inicio_admin.html">Registrar Jefe</a>
+                </div>
+        </form>
+        <p id="login-status"></p>
+    </div>
+</main>
+    <footer>
+        <p>Derechos de autor &copy; 2023 - SEMAPA</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

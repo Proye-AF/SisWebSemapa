@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Conductor</title>
+    <link rel="stylesheet" type="text/css" href="conductor-styles.css">
+</head>
+<body>
+    <header>
+        <h1>SEMAPA - Registro de Conductor</h1>
+    </header>
+    <main>
+        <h2>Registro de Conductor</h2>
+        <form id="driver-registration-form">
+            <div class="form-group">
+                <label for="first-name">Nombre:</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Apellido:</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+            <div class="form-group">
+                <label for="license-number">Número de Licencia:</label>
+                <input type="text" id="license-number" name="license-number" required>
+            </div>
+            <div class="form-group">
+                <label for="license-category">Categoría de Licencia:</label>
+                <select id="license-category" name="license-category">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="M">M</option>
+                    <option value="P">P</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="expiry-date">Fecha de Expiración:</label>
+                <input type="date" id="expiry-date" name="expiry-date" required>
+            </div>
+            <button type="submit">Registrar Conductor</button>
+        </form>
+    </main>
+    <footer>
+        <p>Derechos de autor &copy; 2023 - SEMAPA</p>
+    </footer>
+</body>
+</html>
